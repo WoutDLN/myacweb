@@ -1,0 +1,15 @@
+---
+layout: page
+description: Conference Paper
+author: Wout Dillen
+year: 2017
+title: Digital Humanities at Antwerp
+subtitle: A Short Introduction to Research Groups and Projects at the Faculty of Arts
+eventtitle: Aurora 2017
+eventtitleaddon: Third Biannual Aurora Meeting
+location: Norwich, UK
+eventdate: 2017-11-18/2017-11-20
+img: /assets/img/events/2017-11-norwich/aurora.png
+category: conference-paper
+---
+{% include talk_intro.liquid %}
