@@ -16,7 +16,6 @@ eventdate: 2016-07-11/2016-07-16
 pdf: /assets/pdf/slides/2016-07-13_sequentiality-in-genetic-digital-scholarly-editions.pdf
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

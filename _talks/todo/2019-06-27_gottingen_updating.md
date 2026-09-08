@@ -13,4 +13,3 @@ date: 2019-06-27
 img: /assets/img/cities/goettingen.jpg
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

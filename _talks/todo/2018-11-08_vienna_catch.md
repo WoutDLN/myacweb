@@ -11,4 +11,3 @@ venue: Technical University of Vienna
 eventdate: 2018-11-08/2018-11-09
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

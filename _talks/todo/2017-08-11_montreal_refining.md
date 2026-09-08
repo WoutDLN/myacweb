@@ -14,4 +14,3 @@ eventdate: 2017-08-08/2017-08-11
 img: /assets/img/cities/montreal.jpg
 category: conference-panel
 ---
-{% include talk_intro.liquid %}

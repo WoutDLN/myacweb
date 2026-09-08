@@ -12,7 +12,6 @@ img: /assets/img/cities/alcala.jpg
 eventdate: 2017-11-23/2017-11-24
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

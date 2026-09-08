@@ -16,7 +16,6 @@ eventurl: "https://web.archive.org/web/20250510152629/https://cesr-ests2025.scie
 programmeurl: "https://web.archive.org/web/20250426070053/https://cesr-ests2025.sciencesconf.org/program/details"
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

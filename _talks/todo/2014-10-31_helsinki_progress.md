@@ -17,7 +17,6 @@ programmeurl: "https://web.archive.org/web/20171012193335/http://www.finlit.fi/s
 pdf: /assets/pdf/slides/2014-10-31_progress-report.pdf
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

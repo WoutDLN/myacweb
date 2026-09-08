@@ -16,7 +16,6 @@ programmeurl: "https://web.archive.org/web/20150606034026/http://www.sharp2014.b
 pdf: /assets/pdf/flyers/2014-09-19_lexicon-of-scholarly-editing.pdf
 category: demo
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

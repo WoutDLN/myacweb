@@ -13,4 +13,3 @@ date: 2016-10-27
 eventdate: 2016-10-27
 category: invited-talk
 ---
-{% include talk_intro.liquid %}

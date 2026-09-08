@@ -12,4 +12,3 @@ img: /assets/img/cities/warsaw.jpg
 eventdate: 2017-10-07
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

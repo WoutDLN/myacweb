@@ -13,4 +13,3 @@ img: /assets/img/cities/utrecht.jpg
 eventdate: 2019-07-08/2019-07-12
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

@@ -14,4 +14,3 @@ eventdatedate: 2019-09-11/2019-09-13
 date: 2019-09-13
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

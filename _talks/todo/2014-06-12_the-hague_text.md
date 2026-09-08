@@ -15,7 +15,6 @@ img: /assets/img/cities/thehague.jpg
 pdf: /assets/pdf/posters/2014-06-13_the-text-of-the-document_poster.pdf
 category: poster
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

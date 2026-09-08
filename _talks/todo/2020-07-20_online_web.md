@@ -12,4 +12,3 @@ venue: University of Ottawa
 eventdate: 2020-07-20/2020-07-25
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

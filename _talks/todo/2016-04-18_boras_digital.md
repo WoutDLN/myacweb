@@ -14,7 +14,6 @@ eventdate: 2016-04-18
 pdf: /assets/pdf/slides/2016-04-18_digital-scholarly-editing-and-memory-institutions.pdf
 category: local-seminar
 ---
-{% include talk_intro.liquid %}
 
 ## Description
 

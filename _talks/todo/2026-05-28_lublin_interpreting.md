@@ -15,7 +15,6 @@ programmeurl: "https://web.archive.org/web/20260610063414/https://ests2026.arfi.
 pdf: /assets/pdf/slides/2026-05-28_interpreting-writing-processes-co-authored-with-generative-ai.pdf
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

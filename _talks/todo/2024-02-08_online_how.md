@@ -14,4 +14,3 @@ date: 2024-02-08
 eventdate: 2024-02-01/2024-02-22
 category: invited-talk
 ---
-{% include talk_intro.liquid %}

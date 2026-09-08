@@ -16,7 +16,6 @@ pdf: /assets/pdf/posters/2014-07-10_l-innommable-the-unnamable.pdf
 date: 2014-07-10
 category: poster
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

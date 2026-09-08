@@ -15,7 +15,6 @@ date: 2025-11-13
 eventdate: 2025-11-12/2025-11-13
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

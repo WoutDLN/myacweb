@@ -15,7 +15,6 @@ date: 2016-09-06
 pdf: /assets/pdf/slides/2016-09-6_tei-vertiefung-2.pdf
 category: workshop
 ---
-{% include talk_intro.liquid %}
 
 ## Description
 

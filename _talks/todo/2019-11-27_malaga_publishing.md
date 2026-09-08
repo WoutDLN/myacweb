@@ -13,4 +13,3 @@ img: /assets/img/cities/malaga.jpg
 eventdate: 2019-11-27/2019-11-29
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

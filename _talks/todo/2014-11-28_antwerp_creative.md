@@ -13,7 +13,6 @@ img: /assets/img/cities/antwerp.jpg
 date: 2014-11-28
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Description
 

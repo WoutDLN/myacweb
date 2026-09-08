@@ -12,4 +12,3 @@ venue: National Library of Sweden
 eventdate: 2019-02-07/2019-02-08
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

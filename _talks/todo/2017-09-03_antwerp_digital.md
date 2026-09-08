@@ -12,4 +12,3 @@ date: 2017-09-03
 eventdate: 2017-09-03/2017-09-07
 category: workshop
 ---
-{% include talk_intro.liquid %}

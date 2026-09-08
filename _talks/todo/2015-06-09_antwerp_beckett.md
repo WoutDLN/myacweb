@@ -15,7 +15,6 @@ programmeurl: "https://web.archive.org/web/20200925154422/http://2015.dhbenelux.
 date: 2015-06-09
 category: demo
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

@@ -16,7 +16,6 @@ pdf: /assets/pdf/slides/2013-11-24_between-extant-and-virtual-libraries.pdf
 programmeurl: "https://web.archive.org/web/20251204162458/https://textualscholarship.eu/wp-content/uploads/2015/04/programme-ests-paris-conference-2013.pdf"
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

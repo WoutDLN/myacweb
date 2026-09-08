@@ -12,4 +12,3 @@ eventdate: 2017-11-18/2017-11-20
 img: /assets/img/events/2017-11-norwich/aurora.png
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

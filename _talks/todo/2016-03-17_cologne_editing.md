@@ -16,7 +16,6 @@ img: /assets/img/cities/cologne.jpg
 pdf: /assets/pdf/slides/2016-03-17_editing-copyrighted-materials.pdf
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

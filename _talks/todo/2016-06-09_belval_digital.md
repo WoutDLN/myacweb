@@ -14,7 +14,6 @@ eventurl: "https://web.archive.org/web/20210127190815/https://2016.dhbenelux.org
 pdf: /assets/pdf/posters/2016-06-09_digital-scholarly-editing-and-memory-institutions.pdf
 category: poster
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

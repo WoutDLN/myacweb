@@ -15,7 +15,6 @@ date: 2015-11-20
 eventdate: 2015-11-19/2015-11-21
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

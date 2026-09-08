@@ -15,7 +15,6 @@ programmeurl: "https://web.archive.org/web/20201129071013/https://2015.dhbenelux
 img: /assets/img/cities/antwerp.jpg
 category: conference-panel
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

@@ -11,4 +11,3 @@ venue: Vrije Universiteit Brussel
 date: 2018-09-13/2018-09-14
 category: poster
 ---
-{% include talk_intro.liquid %}

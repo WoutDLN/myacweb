@@ -13,4 +13,3 @@ eventdate: 2021-06-02/2021-06-04
 date: 2021-06-02
 category: conference-paper
 ---
-{% include talk_intro.liquid %}

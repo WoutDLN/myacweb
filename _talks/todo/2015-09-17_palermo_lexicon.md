@@ -14,7 +14,6 @@ date: 2015-09-17
 pdf: /assets/pdf/slides/2015-09-17_the_lexicon-of-scholarly-editing.pdf
 category: invited-talk
 ---
-{% include talk_intro.liquid %}
 
 ## Abstract
 

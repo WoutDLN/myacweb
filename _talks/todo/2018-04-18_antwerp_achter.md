@@ -13,7 +13,6 @@ img: /assets/img/cities/antwerp.jpg
 eventdate: 2018-04-18/2018-04-20
 category: conference-paper
 ---
-{% include talk_intro.liquid %}
 
 ### Abstract
 

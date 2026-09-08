@@ -12,4 +12,3 @@ img: /assets/img/events/2019-10-lisbon/clul.jpg
 date: 2019-10-29
 category: invited-talk
 ---
-{% include talk_intro.liquid %}
