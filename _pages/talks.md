@@ -9,11 +9,8 @@ permalink: /talks/
 <ul>
 
 {% for talk in talks %}
-
 <li>
-  {{ talk.url }}
-    {{ talk.title }}
-  </a>
+  <a href="{{ talk.url }}">{{ talk.title }}</a>
 
   ({{ talk.date | date: "%Y" }})
 
