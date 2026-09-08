@@ -34,6 +34,9 @@ plugins:
 markdown: kramdown
 
 collections:
+  pages:
+    output: true
+
   talks:
     output: true
     permalink: /talks/:name/
@@ -54,10 +57,11 @@ scholar:
   sort_by: year
   order: descending
 
-  bibliography_template: publication_entry
+#  bibliography_template: publication_entry
 
 exclude:
   - README.md
+  - _talks/todo/**
 
 # Exclude from processing.
 # The following items will not be processed, by default.
