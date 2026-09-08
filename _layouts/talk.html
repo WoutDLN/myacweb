@@ -2,10 +2,6 @@
 layout: default
 ---
 
----
-layout: default
----
-
 {% assign event = site.data.events[page.event] %}
 {% assign venue = site.data.venues[event.venue] %}
 
@@ -28,18 +24,17 @@ layout: default
     in <strong>{{ venue.city }}, {{ venue.country }}</strong>,
     at the <strong>{{ venue.name }}</strong>
 
-    {% if eventdates.size > 1 %}
+    {% if event.startdate != event.enddate %}
+    from <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>
+    to <strong>{{ event.enddate | date: "%A %-d %B %Y" }}</strong>.
+    {% else %}
+    on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
+    {% endif %}
 
-        from <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>
-        to <strong>{{ event.enddate | date: "%A %-d %B %Y" }}</strong>.
-        {% else %}
-        on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
-        {% endif %}
-    
-        {% if event.archive_url %}
-        The conference website is available at
-        <a href="{{ event.archive_url }}">{{ event.archive_url }}</a>.
-        {% endif %}
+    {% if event.archive_url %}
+    The conference website is available at
+    <a href="{{ event.archive_url }}">{{ event.archive_url }}</a>.
+    {% endif %}
 
 </p>
 
