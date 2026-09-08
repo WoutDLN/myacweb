@@ -33,14 +33,6 @@ The Beckett Digital Manuscript Project’s approach to encoding sequentiality in
 
 After illustrating the challenges and opportunities of these different models of encoding sequentiality in genetic editions, this paper will demonstrate how the BDMP transcribes its genetic materials in view of visualizing their sequentiality in the edition’s ‘Synoptic Sentence View’ (see ‘Figure 1’). The paper will conclude by presenting an example of how this encoding model may also be used to interpret the macrogenetic writing sequence of individual documents by means of an animated visualization of the writing process of the first draft of Beckett’s L’Innommable.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/events/2016-07-krakow/2016-07-13_krakow_sequentiality_abstract.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Figure 1 - BDMP Synoptic Sentence View
-</div>
 
 ### Works Cited
 
