@@ -1,6 +1,7 @@
 - 2013_sdse:
   - title: "Social, Digital, Scholarly Editing"
-  - date: 2013-07-11/2013-07-13
+  - startdate: 2013-07-11
+  - enddate: 2013-07-13
   - venue: usask
   - archive_url: "https://web.archive.org/web/20140301035751/https://ocs.usask.ca/conf/index.php/sdse/sdse13"
 

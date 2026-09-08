@@ -2,18 +2,49 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+---
+layout: default
+---
 
-<p>
-  {{ page.venue }}
-  ·
-  {{ page.date | date: "%Y-%m-%d" }}
+{% assign event = site.data.events[page.event] %}
+{% assign venue = site.data.venues[event.venue] %}
+
+<header class="talk-header">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.type }}</p>
+</header>
+
+<div class="talk-intro">
+  <p>
+    This talk was presented
+    by <strong>{{ page.author }}</strong>
+    at <strong>{{ event.title }}</strong>
+
+    {% if page.date %}
+      on <strong>{{ page.date | date: "%A %-d %B %Y" }}</strong>.
+    {% endif %}
+
+    This event took place
+    in <strong>{{ venue.city }}, {{ venue.country }}</strong>,
+    at the <strong>{{ venue.name }}</strong>
+
+    {% if eventdates.size > 1 %}
+
+        from <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>
+        to <strong>{{ event.enddate | date: "%A %-d %B %Y" }}</strong>.
+        {% else %}
+        on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
+        {% endif %}
+    
+        {% if event.archive_url %}
+        The conference website is available at
+        <a href="{{ event.archive_url }}">{{ event.archive_url }}</a>.
+        {% endif %}
+
 </p>
 
-{% if page.slides %}
-<p>
-  {{ page.slides }}Slides</a>
-</p>
-{% endif %}
+</div>
 
 {{ content }}
+
+</article>
