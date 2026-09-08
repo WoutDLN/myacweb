@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: talk
 author: Wout Dillen
 title: The Samuel Beckett Digital Manuscript Project as a Collaborative Genetic Edition
 event: 2013_sdse
