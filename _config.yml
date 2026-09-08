@@ -57,7 +57,7 @@ scholar:
   sort_by: year
   order: descending
 
-#  bibliography_template: publication_entry
+  bibliography_template: publication_entry
 
 exclude:
   - README.md

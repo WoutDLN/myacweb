@@ -4,4 +4,4 @@ title: Publications
 permalink: /publications/
 ---
 
-{% bibliography %}
+{% bibliography --group_by year --group_order descending %}

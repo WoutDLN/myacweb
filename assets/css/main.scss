@@ -1,6 +1,8 @@
 ---
 ---
 
+/* Global styles */
+
 body {
   max-width: 850px;
   margin: 0 auto;
@@ -19,4 +21,19 @@ nav a {
 
 a {
   text-decoration: none;
+}
+
+/* Bibliography styles */
+
+h2.bibliography-year {
+  margin-top: 2rem;
+}
+
+ol.bibliography {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+ol.bibliography li {
+  margin-bottom: 0.75rem;
 }
