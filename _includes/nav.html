@@ -1,9 +1,7 @@
 <nav>
 
 {% for item in site.data.navigation %}
-  {{ item.url }}
-    {{ item.title }}
-  </a>
+  <a href="{{ item.url }}">{{ item.title }}</a>
 {% endfor %}
 
 </nav>
