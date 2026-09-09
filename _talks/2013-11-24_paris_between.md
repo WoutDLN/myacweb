@@ -1,20 +1,12 @@
 ---
-layout: page
-description: Conference Paper
+layout: talk
+type: Conference Paper
 author: Veronica Bālā, and Wout Dillen
 title: Between Extant and Virtual Libraries
 subtitle: Beckett's Variant Readings of The Divine Comedy
-year: 2013
-eventtitle: ESTS 2013
-eventtitleaddon: Variance in Textual Scholarship and Genetic Criticism
-location: Paris, France
-eventdate: 2013-11-22/2013-11-24
-venue: École normale supérieure
+event: 2013_ests
 date: 2013-11-24
-img: /assets/img/cities/paris.jpg
-pdf: /assets/pdf/slides/2013-11-24_between-extant-and-virtual-libraries.pdf
-programmeurl: "https://web.archive.org/web/20251204162458/https://textualscholarship.eu/wp-content/uploads/2015/04/programme-ests-paris-conference-2013.pdf"
-category: conference-paper
+slides: /assets/pdf/slides/2013-11-24_between-extant-and-virtual-libraries.pdf
 ---
 
 ### Abstract

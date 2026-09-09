@@ -5,3 +5,11 @@ usask:
   address: "105 Administration Place, Saskatoon, SK S7N 5A2, Canada"
   url: "https://www.usask.ca/"
   plus_code: "49M9+9F Saskatoon, Saskatchewan, Canada"
+
+ens:
+  name: "École normale supérieure"
+  city: "Paris"
+  country: "France"
+  address: "45 rue d'Ulm, 75005 Paris, France"
+  url: "https://www.ens.fr/"
+  plus_code: "R8RV+RQ Paris, France"
