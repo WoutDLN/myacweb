@@ -51,6 +51,7 @@ layout: default
         and <strong>{{ venue.name }}</strong>
     {% else %}
         , <strong>{{ venue.name }}</strong>
+    {% endif %}
     {% endfor %}{% if page_date == start_date and page_date == end_date %}.{% endif %}
 
     {% unless page_date == start_date and page_date == end_date %}
