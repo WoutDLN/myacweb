@@ -21,3 +21,27 @@ kbnl:
   address: "Prins Willem-Alexanderhof 5, 2595 BE Den Haag, The Netherlands"
   url: "https://www.kb.nl/" 
   plus_code: "38JH+M2 The Hague, Netherlands"
+
+unil:
+  name: "University of Lausanne"
+  city: "Lausanne"
+  country: "Switzerland"
+  address: "Université de Lausanne, 1015 Lausanne, Switzerland"
+  url: "https://www.unil.ch/"
+  plus_code: "GHCJ+C3 Lausanne, Switzerland"
+
+epfl:
+  name: "École Polytechnique Fédérale de Lausanne"
+  city: "Lausanne"
+  country: "Switzerland"
+  address: "EPFL, Station 1, 1015 Lausanne, Switzerland"
+  url: "https://www.epfl.ch/" 
+  plus_code: "GHCC+62 Lausanne, Switzerland"
+
+uantwerp:
+  name: "University of Antwerp"
+  city: "Antwerp"
+  country: "Belgium"
+  address: "Prinsstraat 13, 2000 Antwerpen, Belgium"
+  url: "https://www.uantwerpen.be/en/"
+  plus_code: "6CC5+WV Antwerp, Belgium"

@@ -1,19 +1,11 @@
 ---
-layout: page
-description: Demo
+layout: talk
+type: Demo
 author: Wout Dillen
 title: Lexicon of Scholarly Editing
-year: 2014
-eventtitle: SHARP 2014
-eventtitleaddon: Religions of the Book
-location: Antwerp, Belgium
-img: /assets/img/cities/antwerp.jpg
-venue: University of Antwerp
-eventdate: 2014-09-17/2014-09-20
+event: 2014_sharp
 date: 2014-09-19
-eventurl: "https://web.archive.org/web/20151008234541/www.sharp2014.be/"
-programmeurl: "https://web.archive.org/web/20150606034026/http://www.sharp2014.be/program.html"
-pdf: /assets/pdf/flyers/2014-09-19_lexicon-of-scholarly-editing.pdf
+flyer: /assets/events/2014/sharp/flyer.pdf
 category: demo
 ---
 

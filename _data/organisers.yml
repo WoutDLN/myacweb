@@ -7,3 +7,13 @@ dhbenelux:
   name: "DH Benelux"
   url: "https://dhbenelux.org/"
   no_article: true
+
+adho:
+  name: "Alliance of Digital Humanities Organizations"
+  shortname: "ADHO"
+  url: "https://adho.org/"
+
+sharp:
+  name: "Society for the History of Authorship, Reading and Publishing"
+  shortname: "SHARP"
+  url: "https://www.sharpweb.org/"
