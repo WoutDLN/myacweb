@@ -45,3 +45,11 @@ uantwerp:
   address: "Prinsstraat 13, 2000 Antwerpen, Belgium"
   url: "https://www.uantwerpen.be/en/"
   plus_code: "6CC5+WV Antwerp, Belgium"
+
+finlit:
+  name: "Finnish Literature Society"
+  city: "Helsinki"
+  country: "Finland"
+  address: "Pohjoinen Rautatiekatu 13, 00100 Helsinki, Finland"
+  url: "https://www.finlit.fi/en/"
+  plus_code: "5XC4+3F Helsinki, Finland"

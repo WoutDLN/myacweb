@@ -1,21 +1,12 @@
 ---
-layout: page
-description: Conference Paper
+layout: talk
+type: Conference Paper
 author: Wout Dillen
 title: Clean versus Functional Code in Scholarly Digital Editing
 subtitle: The Case of the Beckett Digital Manuscript Project
-year: 2014
-eventtitle: ESTS 2014
-eventtitleaddon: Textual Trails. Transmissions of Oral and Written Texts
-venue: The Finnish Literature Society
-location: Helsinki, Finland
-eventdate: 2014-10-30/2014-11-01
-img: /assets/img/cities/helsinki.jpg
+event: 2014_ests
 date: 2014-10-31
-eventurl: "https://web.archive.org/web/20151002220926/https://www.finlit.fi/fi/tutkimus/kriittiset-editiot-edith/textual-trails-transmissions-oral-and-written-texts#.Vg8Amy_P3wP"
-programmeurl: "https://web.archive.org/web/20171012193335/http://www.finlit.fi/sites/default/files/mediafiles/tutkimus/programme_ests2014.pdf"
-pdf: /assets/pdf/slides/2014-10-31_clean-vs-functional-code.pdf
-category: conference-paper
+slides: /assets/events/2014/ests/paper-clean-vs-functional.pdf
 ---
 
 ### Abstract

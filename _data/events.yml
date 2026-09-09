@@ -34,7 +34,7 @@
   location: Lausanne, Switzerland
   programme_url: "https://web.archive.org/web/20180831220747/http://dharchive.org/sessions.php?c=DH2014"
   archive_url: "https://web.archive.org/web/20210703202925/http://dh2014.org/"
-  startdate: 2014-07-07
+  startdate: 2014-07-7
   enddate: 2014-07-12
 
 2014_sharp:
@@ -47,3 +47,23 @@
   enddate: 2014-09-20
   archive_url: "https://web.archive.org/web/20151008234541/www.sharp2014.be/"
   programme_url: "https://web.archive.org/web/20150606034026/http://www.sharp2014.be/program.html"
+
+2014_ests:
+  title: ESTS 2014
+  subtitle: Textual Trails. Transmissions of Oral and Written Texts
+  organiser: ests
+  venue:
+    - finlit
+  startdate: 2014-10-30
+  enddate: 2014-11-01
+  eventtitle: ESTS 2014
+  archive_url: "https://web.archive.org/web/20151002220926/https://www.finlit.fi/fi/tutkimus/kriittiset-editiot-edith/textual-trails-transmissions-oral-and-written-texts#.Vg8Amy_P3wP"
+  programme_url: "/assets/events/2014/ests/programme.pdf"
+
+2014_baahe:
+  title: BAAHE 2014
+  organiser: baahe
+  venue:
+    - uantwerp
+  startdate: 2014-11-28
+  enddate: 2014-11-28
