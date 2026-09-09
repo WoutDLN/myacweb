@@ -60,7 +60,7 @@ layout: default
     {% endif %}
   </p>
 
-{% if event.archive_url or event.programme_url or page.slides or event.bookofabstracts or organiser.url %}
+{% if event.archive_url or event.programme_url or page.slides or page.poster or event.bookofabstracts or organiser.url %}
 <div>
     <p>
     <strong>Links:</strong>
@@ -113,6 +113,14 @@ layout: default
     {{ separator }}
         <a href="{{ page.slides | relative_url }}" target="_blank">
             Slides (PDF)
+        </a>
+    {% assign separator = " | " %}
+    {% endif %}
+
+    {% if page.poster %}
+    {{ separator }}
+        <a href="{{ page.poster | relative_url }}" target="_blank">
+            Poster (PDF)
         </a>
     {% assign separator = " | " %}
     {% endif %}
