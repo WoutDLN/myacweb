@@ -6,7 +6,7 @@ title: Between Extant and Virtual Libraries
 subtitle: Beckett's Variant Readings of The Divine Comedy
 event: 2013_ests
 date: 2013-11-24
-slides: /assets/pdf/slides/2013-11-24_between-extant-and-virtual-libraries.pdf
+slides: /assets/events/2013/ests/slides.pdf
 ---
 
 ### Abstract
