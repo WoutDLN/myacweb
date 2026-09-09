@@ -22,7 +22,7 @@ layout: default
     at <strong>{{ event.title }}</strong>
 
     {% if event.organiser %}
-      organised by the <strong>{{ organiser.name }}</strong> 
+      organised by {% unless organiser.no_article %}the {% endunless %}<strong>{{ organiser.name }}</strong> 
         {% if organiser.shortname %}
           ({{ organiser.shortname }})
         {% endif %}
