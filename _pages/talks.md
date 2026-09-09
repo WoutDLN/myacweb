@@ -26,7 +26,7 @@ permalink: /talks/
   {% endif %}
 
   <li>
-    <a href="{{ talk.url |_url | relative_url }}" target="_blank">
+    <a href="{{ talk.url | relative_url }}" target="_blank">
       {{ talk.title }}
     </a> ({{ talk.type }})
   </li>
