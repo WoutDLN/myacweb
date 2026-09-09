@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign event = site.data.events[page.event] %}
-{% assign venue = site.data.venues[event.venue] %}
+{% assign venues = event.venue %}
 {% assign organiser = site.data.organisers[event.organiser] %}
 
 
@@ -32,9 +32,23 @@ layout: default
       on <strong>{{ page.date | date: "%A %-d %B %Y" }}</strong>.
     {% endif %}
 
+    {% assign first_venue = site.data.venues[venues.first] %}
+
     This event took place
-    in <strong>{{ venue.city }}, {{ venue.country }}</strong>,
-    at the <strong>{{ venue.name }}</strong>
+    in <strong>{{ first_venue.city }}, {{ first_venue.country }}</strong>,
+    at the
+
+    {% for venue_id in venues %}
+    {% assign venue = site.data.venues[venue_id] %}
+
+    {% if forloop.first %}
+        <strong>{{ venue.name }}</strong>
+    {% elsif forloop.last %}
+        and <strong>{{ venue.name }}</strong>
+    {% else %}
+        , <strong>{{ venue.name }}</strong>
+    {% endif %}
+    {% endfor %}
 
     {% if event.startdate != event.enddate %}
         {% assign start_year = event.startdate | date: "%Y" %}
@@ -121,6 +135,14 @@ layout: default
     {{ separator }}
         <a href="{{ page.poster | relative_url }}" target="_blank">
             Poster (PDF)
+        </a>
+    {% assign separator = " | " %}
+    {% endif %}
+
+    {% if page.flyer %}
+    {{ separator }}
+        <a href="{{ page.flyer | relative_url }}" target="_blank">
+            Flyer (PDF)
         </a>
     {% assign separator = " | " %}
     {% endif %}
