@@ -1,20 +1,14 @@
 ---
-layout: page
-description: Poster
+layout: talk
+type: Poster
 author: Wout Dillen
 title: The Text of the Document
 subtitle: Image-Text Linking in the Beckett Digital Manuscript Project
-year: 2014
-eventtitle: DH Benelux 2014
-location: The Hague, The Netherlands
-venue: National Library of The Netherlands
-eventdate: 2014-06-12/2014-06-13
-eventurl: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org/"
+event: 2014_dhbenelux
 date: 2014-06-12
-img: /assets/img/cities/thehague.jpg
-pdf: /assets/pdf/posters/2014-06-13_the-text-of-the-document_poster.pdf
-category: poster
+poster: /assets/events/2014/dhbenelux/poster.pdf
 ---
+
 
 ### Abstract
 

@@ -13,3 +13,11 @@
   enddate: 2013-11-24
   venue: ens
   programme_url: "https://web.archive.org/web/20251204162458/https://textualscholarship.eu/wp-content/uploads/2015/04/programme-ests-paris-conference-2013.pdf"
+
+2014_dhbenelux:
+  title: DH Benelux 2014
+  organiser: dhbenelux
+  venue: kbnl
+  startdate: 2014-06-12
+  enddate: 2014-06-13
+  archive_url: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org/"

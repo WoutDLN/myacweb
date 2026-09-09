@@ -2,3 +2,8 @@ ests:
   name: "European Society for Textual Scholarship"
   shortname: "ESTS"
   url: "https://textualscholarship.eu/"
+
+dhbenelux:
+  name: "DH Benelux"
+  url: "https://dhbenelux.org/"
+  no_article: true
