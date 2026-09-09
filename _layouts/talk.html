@@ -6,6 +6,10 @@ layout: default
 {% assign venues = event.venue %}
 {% assign organiser = site.data.organisers[event.organiser] %}
 
+{% assign page_date = page.date | date: "%Y-%m-%d" %}
+{% assign start_date = event.startdate | date: "%Y-%m-%d" %}
+{% assign end_date = event.enddate | date: "%Y-%m-%d" %}
+
 
 <header class="talk-header">
   <h1>{{ page.title }}</h1>
@@ -47,31 +51,32 @@ layout: default
         and <strong>{{ venue.name }}</strong>
     {% else %}
         , <strong>{{ venue.name }}</strong>
-    {% endif %}
-    {% endfor %}
+    {% endfor %}{% if page_date == start_date and page_date == end_date %}.{% endif %}
 
-    {% if event.startdate != event.enddate %}
-        {% assign start_year = event.startdate | date: "%Y" %}
-        {% assign end_year = event.enddate | date: "%Y" %}
-        {% assign start_month = event.startdate | date: "%m" %}
-        {% assign end_month = event.enddate | date: "%m" %}
+    {% unless page_date == start_date and page_date == end_date %}
+        {% if event.startdate != event.enddate %}
+            {% assign start_year = event.startdate | date: "%Y" %}
+            {% assign end_year = event.enddate | date: "%Y" %}
+            {% assign start_month = event.startdate | date: "%m" %}
+            {% assign end_month = event.enddate | date: "%m" %}
 
-        from <strong>
-        {% if start_year == end_year %}
-            {% if start_month == end_month %}
-                {{ event.startdate | date: "%-d" }}
+            from <strong>
+            {% if start_year == end_year %}
+                {% if start_month == end_month %}
+                    {{ event.startdate | date: "%-d" }}
+                {% else %}
+                    {{ event.startdate | date: "%-d %B" }}
+                {% endif %}
             {% else %}
-                {{ event.startdate | date: "%-d %B" }}
+                {{ event.startdate | date: "%-d %B %Y" }}
             {% endif %}
-        {% else %}
-            {{ event.startdate | date: "%-d %B %Y" }}
-        {% endif %}
-        </strong>
+            </strong>
 
-        to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>.
-    {% else %}
-        on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
-    {% endif %}
+            to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>.
+        {% else %}
+            on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
+        {% endif %}
+    {%- endunless -%}
   </p>
 
 {% if event.archive_url or event.programme_url or page.slides or page.poster or event.bookofabstracts or organiser.url %}
