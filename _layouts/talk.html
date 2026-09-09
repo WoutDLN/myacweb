@@ -5,6 +5,7 @@ layout: default
 {% assign event = site.data.events[page.event] %}
 {% assign venue = site.data.venues[event.venue] %}
 
+
 <header class="talk-header">
   <h1>{{ page.title }}</h1>
   <p>{{ page.type }}</p>
@@ -25,35 +26,84 @@ layout: default
     at the <strong>{{ venue.name }}</strong>
 
     {% if event.startdate != event.enddate %}
-    {% assign start_year = event.startdate | date: "%Y" %}
-    {% assign end_year = event.enddate | date: "%Y" %}
+        {% assign start_year = event.startdate | date: "%Y" %}
+        {% assign end_year = event.enddate | date: "%Y" %}
+        {% assign start_month = event.startdate | date: "%m" %}
+        {% assign end_month = event.enddate | date: "%m" %}
 
-    {% assign start_month = event.startdate | date: "%m" %}
-    {% assign end_month = event.enddate | date: "%m" %}
-
-    from <strong>
-    {% if start_year == end_year %}
-        {% if start_month == end_month %}
-            {{ event.startdate | date: "%-d" }}
+        from <strong>
+        {% if start_year == end_year %}
+            {% if start_month == end_month %}
+                {{ event.startdate | date: "%-d" }}
+            {% else %}
+                {{ event.startdate | date: "%-d %B" }}
+            {% endif %}
         {% else %}
-            {{ event.startdate | date: "%-d %B" }}
+            {{ event.startdate | date: "%-d %B %Y" }}
         {% endif %}
-    {% else %}
-        {{ event.startdate | date: "%-d %B %Y" }}
-    {% endif %}
-    </strong>
+        </strong>
 
-to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>.
+        to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>.
     {% else %}
-    on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
+        on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
     {% endif %}
+  </p>
+
+{% if event.archive_url or event.programme_url or page.slides %}
+<div>
+    <p>
+    <strong>Links:</strong>
+
+    {% assign separator = "" %}
 
     {% if event.archive_url %}
-    The conference website is available at
-    <a href="{{ event.archive_url }}">{{ event.archive_url }}</a>.
+    {{ separator }}
+        <a href="{{ event.archive_url | relative_url }}" target="_blank">
+            Event Website
+            {% if event.archive_url contains "web.archive.org" %}
+             (Archived)
+            {% endif %}
+        </a>
+    {% assign separator = " | " %}
     {% endif %}
 
-</p>
+    {% if event.programme_url %}
+    {{ separator }}
+        <a href="{{ event.programme_url | relative_url }}" target="_blank">
+            Programme
+            {% if event.programme_url contains ".pdf" %}
+            (PDF)
+            {% elsif event.programme_url contains "web.archive.org" %}
+            (Archived)
+            {% endif %}
+        </a>
+    {% assign separator = " | " %}
+    {% endif %}
+
+    {% if page.slides %}
+    {{ separator }}
+        <a href="{{ page.slides | relative_url }}" target="_blank">
+            Slides (PDF)
+        </a>
+    {% assign separator = " | " %}
+    {% endif %}
+
+    {% if event.bookofabstracts %}
+    {{ separator }}
+        <a href="{{ event.bookofabstracts | relative_url }}" target="_blank">
+            Book of Abstracts
+            (PDF)
+            {% endif %}
+            {% elsif event.bookofabstracts contains "web.archive.org"
+            or event.bookofabstracts contains "zenodo.org"
+            or event.bookofabstracts contains "hcommons.org" %}
+            (Archived)
+            {% if event.bookofabstracts contains ".pdf" %}
+        </a>
+    {% endif %}
+    </p>
+</div>
+{% endif %}
 
 </div>
 
