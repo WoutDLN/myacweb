@@ -23,7 +23,7 @@ email: wout.dillen@hb.se
 description: >- # this means to ignore newlines until "baseurl:"
   Yet another attempt at writing a personal academic website.
 baseurl: "/myacweb" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://woutdln.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WoutDLN
 github_username:  WoutDLN
 
