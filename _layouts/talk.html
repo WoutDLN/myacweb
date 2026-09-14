@@ -59,29 +59,35 @@ layout: default
       on <strong>{{ page.date | date: "%A %-d %B %Y" }}</strong>.
     {% endif %}
 
-    {% assign first_venue = site.data.venues[venues.first] %}
+    {% if event.venue contains "," %}
 
-    This event took place {{ date_range }}
-    in <strong>{{ first_venue.city }}, {{ first_venue.country }}</strong>,
-    at the
+        {% assign venues = event.venue | split: ", " %}
+        {% assign first_venue = site.data.venues[venues.first] %}
 
-    {% if venues.size == 1 %}
+        This event took place {{ date_range }}
+        in <strong>{{ first_venue.city }}, {{ first_venue.country }}</strong>,
+        at
 
-        <strong>{{ first_venue.name }}</strong>.
+        {% for venue_id in venues -%}
+            {% assign venue = site.data.venues[venue_id] %}
+
+            {%- if forloop.first -%}
+                the <strong>{{ venue.name }}</strong>
+            {%- elsif forloop.last -%}
+                , and the <strong>{{ venue.name }}</strong>
+            {%- else -%}
+                , the <strong>{{ venue.name }}</strong>
+            {%- endif -%}
+
+        {%- endfor -%}.
 
     {% else %}
 
-        {% for venue_id in venues -%}
-            {%- assign venue = site.data.venues[venue_id] -%}
+        {% assign venue = site.data.venues[event.venue] %}
 
-            {%- if forloop.first -%}
-                <strong>{{ venue.name }}</strong>
-            {%- elsif forloop.last -%}
-                and <strong>{{ venue.name }}</strong>
-            {%- else -%}
-                , <strong>{{ venue.name }}</strong>
-            {%- endif -%}
-        {%- endfor -%}.
+        This event took place {{ date_range }}
+        in <strong>{{ venue.city }}, {{ venue.country }}</strong>,
+        at the <strong>{{ venue.name }}</strong>.
 
     {% endif %}
   </p>

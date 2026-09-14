@@ -2,8 +2,7 @@
   title: "Social, Digital, Scholarly Editing"
   startdate: 2013-07-11
   enddate: 2013-07-13
-  venue: 
-    - usask
+  venue: usask
   archive_url: "https://web.archive.org/web/20140301035751/https://ocs.usask.ca/conf/index.php/sdse/sdse13"
 
 2013_ests:
@@ -12,15 +11,13 @@
   organiser: ests
   startdate: 2013-11-22
   enddate: 2013-11-24
-  venue: 
-    - ens
+  venue: ens
   programme_url: "assets/events/2013/ests/programme.pdf"
 
 2014_dhbenelux:
   title: DH Benelux 2014
   organiser: dhbenelux
-  venue: 
-    - kbnl
+  venue: kbnl
   startdate: 2014-06-12
   enddate: 2014-06-13
   archive_url: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org/"
@@ -28,9 +25,7 @@
 2014_dh:
   title: Digital Humanities 2014
   organiser: adho
-  venue: 
-    - unil
-    - epfl
+  venue: unil, epfl
   location: Lausanne, Switzerland
   programme_url: "https://web.archive.org/web/20180831220747/http://dharchive.org/sessions.php?c=DH2014"
   archive_url: "https://web.archive.org/web/20210703202925/http://dh2014.org/"
@@ -41,8 +36,7 @@
   title: SHARP 2014
   subtitle: Religions of the Book
   organiser: sharp
-  venue: 
-    - uantwerp
+  venue: uantwerp
   startdate: 2014-09-17
   enddate: 2014-09-20
   archive_url: "https://web.archive.org/web/20151008234541/www.sharp2014.be/"
@@ -52,8 +46,7 @@
   title: ESTS 2014
   subtitle: Textual Trails. Transmissions of Oral and Written Texts
   organiser: ests
-  venue:
-    - finlit
+  venue: finlit
   startdate: 2014-10-30
   enddate: 2014-11-01
   eventtitle: ESTS 2014
@@ -63,8 +56,7 @@
 2014_baahe:
   title: BAAHE 2014
   organiser: baahe
-  venue:
-    - uantwerp
+  venue: uantwerp
   startdate: 2014-11-28
   enddate: 2014-11-28
 
@@ -73,6 +65,5 @@
   organiser: val
   startdate: 2015-05-06
   enddate: 2015-05-06
-  venue: 
-    - uantwerp
+  venue: uantwerp
   programme_url: "https://web.archive.org/web/20230401071441/http://www.vval.be/onderzoeksdag2015.html"
