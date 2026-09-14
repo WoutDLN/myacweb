@@ -67,3 +67,12 @@
     - uantwerp
   startdate: 2014-11-28
   enddate: 2014-11-28
+
+2015_val:
+  title: VAL Onderzoeksdag 2015
+  organiser: val
+  startdate: 2015-05-06
+  enddate: 2015-05-06
+  venue: 
+    - uantwerp
+  programme_url: "https://web.archive.org/web/20230401071441/http://www.vval.be/onderzoeksdag2015.html"

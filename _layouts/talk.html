@@ -10,6 +10,29 @@ layout: default
 {% assign start_date = event.startdate | date: "%Y-%m-%d" %}
 {% assign end_date = event.enddate | date: "%Y-%m-%d" %}
 
+{% capture date_range %}
+{%- if event.startdate != event.enddate -%}
+    {% assign start_year = event.startdate | date: "%Y" %}
+    {% assign end_year = event.enddate | date: "%Y" %}
+    {% assign start_month = event.startdate | date: "%m" %}
+    {% assign end_month = event.enddate | date: "%m" %}
+
+    from <strong>
+        {%- if start_year == end_year -%}
+            {%- if start_month == end_month -%}
+                {{ event.startdate | date: "%-d" }}
+            {%- else -%}
+                {{ event.startdate | date: "%-d %B" }}
+            {%- endif -%}
+        {%- else -%}
+            {{ event.startdate | date: "%-d %B %Y" }}
+        {%- endif -%}
+            </strong>
+
+    to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>
+    {% endif %}
+{% endcapture %}
+
 
 <header class="talk-header">
   <h1>{{ page.title }}</h1>
@@ -38,46 +61,29 @@ layout: default
 
     {% assign first_venue = site.data.venues[venues.first] %}
 
-    This event took place
+    This event took place {{ date_range }}
     in <strong>{{ first_venue.city }}, {{ first_venue.country }}</strong>,
     at the
 
-    {% for venue_id in venues %}
-    {% assign venue = site.data.venues[venue_id] %}
+    {% if venues.size == 1 %}
 
-    {% if forloop.first %}
-        <strong>{{ venue.name }}</strong>
-    {% elsif forloop.last %}
-        and <strong>{{ venue.name }}</strong>
+        <strong>{{ first_venue.name }}</strong>.
+
     {% else %}
-        , <strong>{{ venue.name }}</strong>
+
+        {% for venue_id in venues -%}
+            {%- assign venue = site.data.venues[venue_id] -%}
+
+            {%- if forloop.first -%}
+                <strong>{{ venue.name }}</strong>
+            {%- elsif forloop.last -%}
+                and <strong>{{ venue.name }}</strong>
+            {%- else -%}
+                , <strong>{{ venue.name }}</strong>
+            {%- endif -%}
+        {%- endfor -%}.
+
     {% endif %}
-    {% endfor %}{% if page_date == start_date and page_date == end_date %}.{% endif %}
-
-    {% unless page_date == start_date and page_date == end_date %}
-        {% if event.startdate != event.enddate %}
-            {% assign start_year = event.startdate | date: "%Y" %}
-            {% assign end_year = event.enddate | date: "%Y" %}
-            {% assign start_month = event.startdate | date: "%m" %}
-            {% assign end_month = event.enddate | date: "%m" %}
-
-            from <strong>
-            {% if start_year == end_year %}
-                {% if start_month == end_month %}
-                    {{ event.startdate | date: "%-d" }}
-                {% else %}
-                    {{ event.startdate | date: "%-d %B" }}
-                {% endif %}
-            {% else %}
-                {{ event.startdate | date: "%-d %B %Y" }}
-            {% endif %}
-            </strong>
-
-            to <strong>{{ event.enddate | date: "%-d %B %Y" }}</strong>.
-        {% else %}
-            on <strong>{{ event.startdate | date: "%A %-d %B %Y" }}</strong>.
-        {% endif %}
-    {%- endunless -%}
   </p>
 
 {% if event.archive_url or event.programme_url or page.slides or page.poster or event.bookofabstracts or organiser.url %}

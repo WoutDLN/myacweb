@@ -22,3 +22,8 @@ baahe:
   name: "The Belgian Association for American and English Studies"
   shortname: "BAAHE"
   url: "https://www.baahe.be/"
+
+val:
+  name: "Vlaamse Vereniging voor Algemene en Vergelijkende Literatuurwetenschap"
+  shortname: "VAL"
+  url: "https://www.vval.be/"
