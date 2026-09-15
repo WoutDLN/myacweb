@@ -169,13 +169,14 @@ layout: default
     {{ separator }}
         <a href="{{ event.bookofabstracts | relative_url }}" target="_blank">
             Book of Abstracts
+            {% if event.bookofabstracts contains ".pdf" %}
             (PDF)
-            {% endif %}
             {% elsif event.bookofabstracts contains "web.archive.org"
             or event.bookofabstracts contains "zenodo.org"
-            or event.bookofabstracts contains "hcommons.org" %}
+            or event.bookofabstracts contains "hcommons.org"
+            or event.bookofabstracts contains "doi.org" %}
             (Archived)
-            {% if event.bookofabstracts contains ".pdf" %}
+            {% endif %}
         </a>
     {% endif %}
     </p>
