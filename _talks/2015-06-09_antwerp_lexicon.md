@@ -1,19 +1,10 @@
 ---
-layout: page
-description: Demo
+layout: talk
+type: Demo
 author: Wout Dillen
 title: A Lexicon of Scholarly Editing
-year: 2015
-eventtitle: DH Benelux 2015
-location: Antwerp, Belgium
-img: /assets/img/cities/antwerp.jpg
-venue: University of Antwerp
-eventdate: 2015-06-08/2015-06-09
-eventurl: "https://web.archive.org/web/20200925174136/http://2015.dhbenelux.org/"
-bookofabstracts: "https://doi.org/10.17613/t3tez-7zv83"
-programmeurl: "https://web.archive.org/web/20200925154422/http://2015.dhbenelux.org/preliminary-program/tuesday/"
+event: 2015_dhbenelux
 date: 2015-06-09
-category: demo
 ---
 
 ## Abstract

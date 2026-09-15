@@ -1,19 +1,10 @@
 ---
-layout: page
-description: Conference Panel
-title: Digitization and Exogenesis
-location: Antwerp, Belgium
-venue: University of Antwerp
-year: 2015
+layout: talk
+type: Conference Panel
 author: Ronan Crowley, Tom De Keyser, Wout Dillen, Vincent Neyt, and Dirk Van Hulle
+title: Digitization and Exogenesis
+event: 2015_dhbenelux
 date: 2015-06-08
-eventtitle: DH Benelux 2015
-eventdate: 2015-06-08/2015-06-09
-eventurl: "https://web.archive.org/web/20200925174136/http://2015.dhbenelux.org/"
-bookofabstracts: "https://doi.org/10.17613/t3tez-7zv83"
-programmeurl: "https://web.archive.org/web/20201129071013/https://2015.dhbenelux.org/preliminary-program/monday/"
-img: /assets/img/cities/antwerp.jpg
-category: conference-panel
 ---
 
 ## Abstract

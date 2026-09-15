@@ -67,3 +67,13 @@
   enddate: 2015-05-06
   venue: uantwerp
   programme_url: "https://web.archive.org/web/20230401071441/http://www.vval.be/onderzoeksdag2015.html"
+
+2015_dhbenelux:
+  title: DH Benelux 2015
+  organiser: dhbenelux
+  venue: uantwerp
+  startdate: 2015-06-08
+  enddate: 2015-06-09
+  archive_url: "https://web.archive.org/web/20200925174136/http://2015.dhbenelux.org/"
+  bookofabstracts: "https://doi.org/10.17613/t3tez-7zv83"
+  programme_url: "https://web.archive.org/web/20201129071013/https://2015.dhbenelux.org/preliminary-program/monday/"
