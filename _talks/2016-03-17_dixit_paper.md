@@ -1,6 +1,6 @@
 ---
 layout: talk
-description: Conference Paper
+type: Conference Paper
 author: Wout Dillen
 title: Editing Copyrighted Materials
 subtitle: On Sharing What You Can

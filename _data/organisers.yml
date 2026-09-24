@@ -38,3 +38,8 @@ dixit:
   name: "Digital Scholarly Editions Initial Training Network"
   shortname: "DiXiT"
   url: "https://dixit.uni-koeln.de/"
+
+sslis:
+  name: "Swedish School of Library and Information Science"
+  shortname: "SSLIS"
+  url: "https://www.hb.se/en/the-swedish-school-of-library-and-information-science-sslis/"

@@ -77,3 +77,11 @@ uni_koeln:
   address: "Albertus-Magnus-Platz, 50923 Köln, Germany"
   url: "https://www.uni-koeln.de/"
   plus_code: "WWHH+8P Cologne, Germany"
+
+hb: 
+  name: "University of Borås"
+  city: "Borås"
+  country: "Sweden"
+  address: "Allégatan 1, 501 90 Borås, Sweden"
+  url: "https://www.hb.se/en/"
+  plus_code: "PWGQ+3M Borås"
