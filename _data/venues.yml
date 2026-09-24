@@ -53,3 +53,19 @@ finlit:
   address: "Pohjoinen Rautatiekatu 13, 00100 Helsinki, Finland"
   url: "https://www.finlit.fi/en/"
   plus_code: "5XC4+3F Helsinki, Finland"
+
+unipa:
+  name: "University of Palermo"
+  city: "Palermo"
+  country: "Italy" 
+  address: "Piazza Marina, 61, 90133 Palermo PA, Italy"
+  url: "https://www.unipa.it/"
+  plus_code: "498C+X2 Palermo, Metropolitan City of Palermo, Italy"
+
+dmu:
+  name: "De Montfort University"
+  city: "Leicester"
+  country: "United Kingdom"
+  address: "Gateway House, Leicester LE1 9BH, United Kingdom"
+  url: "https://www.dmu.ac.uk/"
+  plus_code: "JVH6+W3 Leicester, United Kingdom"

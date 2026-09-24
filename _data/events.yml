@@ -77,3 +77,30 @@
   archive_url: "https://web.archive.org/web/20200925174136/http://2015.dhbenelux.org/"
   bookofabstracts: "https://doi.org/10.17613/t3tez-7zv83"
   programme_url: "https://web.archive.org/web/20201129071013/https://2015.dhbenelux.org/preliminary-program/monday/"
+
+2015_unipa:
+  year: 2015
+  title: Contemporary Knowledge in the Humanities
+  venue: unipa
+  startdate: 2015-09-17
+  enddate: 2015-09-18
+
+2015_trics:
+  title: Towards a Genetics of Translation
+  subtitle: Interdisciplinary and International Perspectives
+  organiser: trics
+  location: Antwerp, Belgium
+  archive_url: "https://web.archive.org/web/20210213215501/https://www.uantwerpen.be/en/research-groups/translation-interpreting/news---events/past-events/towards-a-genetics-o/"
+  programme_url: /assets/events/2015/trics/programme.pdf
+  venue: uantwerp
+  startdate: 2015-09-29
+  enddate: 2015-09-29
+
+2015_ests:
+  title: ESTS 2015
+  subtitle: Users of Scholarly Editions
+  venue: dmu
+  organiser: ests
+  archive_url: "https://web.archive.org/web/20150905221613/https://cts.dmu.ac.uk/ESTS/"
+  startdate: 2015-11-19
+  enddate: 2015-11-21

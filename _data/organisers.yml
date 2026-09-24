@@ -27,3 +27,9 @@ val:
   name: "Vlaamse Vereniging voor Algemene en Vergelijkende Literatuurwetenschap"
   shortname: "VAL"
   url: "https://www.vval.be/"
+
+trics:
+  name: "Translation, Interpreting and Intercultural Studies"
+  shortname: "TricS"
+  url: "https://www.uantwerpen.be/en/research-groups/translation-interpreting/"
+  no_article: true

@@ -1,19 +1,11 @@
 ---
-layout: page
-description: Conference Paper
+layout: talk
+type: Conference Paper
 author: Wout Dillen, Caroline Macé, Philipp Roelli, and Dirk Van Hulle
 title: Towards a Common Vocabulary of Textual Scholarship
 subtitle: Two Lexicons and a New Project
-year: 2015
-eventtitle: ESTS 2015
-eventtitleaddon: Users of Scholarly Editions
-eventurl: "https://web.archive.org/web/20150905221613/https://cts.dmu.ac.uk/ESTS/"
-venue: De Montfort University
-img: /assets/img/cities/leicester.jpg
-location: Leicester, UK
+event: 2015_ests
 date: 2015-11-20
-eventdate: 2015-11-19/2015-11-21
-category: conference-paper
 ---
 
 ## Abstract
@@ -35,7 +27,7 @@ Italian, and occasionally Latin.
 
 LSE and PLS are different in their conception and in their scope, but they are complementary and
 several entries are present in both lexicons (for example: “reading”, “apparatus”, “archetype”,
-“stemma” etc.).
+“stemma” etc.). 
 
 In their present form, these two lexicons are already very useful and valuable, yet we would like to
 go a step further and, building upon the material and experience we have gained in the process, we
