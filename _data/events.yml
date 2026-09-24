@@ -2,76 +2,76 @@
   title: "Social, Digital, Scholarly Editing"
   startdate: 2013-07-11
   enddate: 2013-07-13
-  venue: usask
+  venue: "usask"
   archive_url: "https://web.archive.org/web/20140301035751/https://ocs.usask.ca/conf/index.php/sdse/sdse13"
 
 2013_ests:
-  title: ESTS 2013
-  subtitle: Variance in Textual Scholarship and Genetic Criticism
-  organiser: ests
+  title: "ESTS 2013"
+  subtitle: "Variance in Textual Scholarship and Genetic Criticism"
+  organiser: "ests"
   startdate: 2013-11-22
   enddate: 2013-11-24
-  venue: ens
-  programme_url: "assets/events/2013/ests/programme.pdf"
+  venue: "ens"
+  programme_url: "/assets/events/2013/ests/programme.pdf"
 
 2014_dhbenelux:
-  title: DH Benelux 2014
-  organiser: dhbenelux
-  venue: kbnl
+  title: "DH Benelux 2014"
+  organiser: "dhbenelux"
+  venue: "kbnl"
   startdate: 2014-06-12
   enddate: 2014-06-13
   archive_url: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org/"
 
 2014_dh:
-  title: Digital Humanities 2014
-  organiser: adho
-  venue: unil, epfl
-  location: Lausanne, Switzerland
+  title: "Digital Humanities 2014"
+  organiser: "adho"
+  venue: "unil, epfl"
+  location: "Lausanne, Switzerland"
   programme_url: "https://web.archive.org/web/20180831220747/http://dharchive.org/sessions.php?c=DH2014"
   archive_url: "https://web.archive.org/web/20210703202925/http://dh2014.org/"
   startdate: 2014-07-7
   enddate: 2014-07-12
 
 2014_sharp:
-  title: SHARP 2014
-  subtitle: Religions of the Book
-  organiser: sharp
-  venue: uantwerp
+  title: "SHARP 2014"
+  subtitle: "Religions of the Book"
+  organiser: "sharp"
+  venue: "uantwerp"
   startdate: 2014-09-17
   enddate: 2014-09-20
   archive_url: "https://web.archive.org/web/20151008234541/www.sharp2014.be/"
   programme_url: "https://web.archive.org/web/20150606034026/http://www.sharp2014.be/program.html"
 
 2014_ests:
-  title: ESTS 2014
-  subtitle: Textual Trails. Transmissions of Oral and Written Texts
-  organiser: ests
-  venue: finlit
+  title: "ESTS 2014"
+  subtitle: "Textual Trails. Transmissions of Oral and Written Texts"
+  organiser: "ests"
+  venue: "finlit"
   startdate: 2014-10-30
   enddate: 2014-11-01
-  eventtitle: ESTS 2014
+  eventtitle: "ESTS 2014"
   archive_url: "https://web.archive.org/web/20151002220926/https://www.finlit.fi/fi/tutkimus/kriittiset-editiot-edith/textual-trails-transmissions-oral-and-written-texts#.Vg8Amy_P3wP"
   programme_url: "/assets/events/2014/ests/programme.pdf"
 
 2014_baahe:
-  title: BAAHE 2014
-  organiser: baahe
-  venue: uantwerp
+  title: "BAAHE 2014"
+  organiser: "baahe"
+  venue: "uantwerp"
   startdate: 2014-11-28
   enddate: 2014-11-28
 
 2015_val:
-  title: VAL Onderzoeksdag 2015
-  organiser: val
+  title: "VAL Onderzoeksdag 2015"
+  organiser: "val"
   startdate: 2015-05-06
   enddate: 2015-05-06
-  venue: uantwerp
+  venue: "uantwerp"
   programme_url: "https://web.archive.org/web/20230401071441/http://www.vval.be/onderzoeksdag2015.html"
 
 2015_dhbenelux:
-  title: DH Benelux 2015
-  organiser: dhbenelux
-  venue: uantwerp
+  title: "DH Benelux 2015"
+  organiser: "dhbenelux"
+  venue: "uantwerp"
   startdate: 2015-06-08
   enddate: 2015-06-09
   archive_url: "https://web.archive.org/web/20200925174136/http://2015.dhbenelux.org/"
@@ -79,28 +79,36 @@
   programme_url: "https://web.archive.org/web/20201129071013/https://2015.dhbenelux.org/preliminary-program/monday/"
 
 2015_unipa:
-  year: 2015
-  title: Contemporary Knowledge in the Humanities
-  venue: unipa
+  title: "Contemporary Knowledge in the Humanities"
+  venue: "unipa"
   startdate: 2015-09-17
   enddate: 2015-09-18
 
 2015_trics:
-  title: Towards a Genetics of Translation
-  subtitle: Interdisciplinary and International Perspectives
-  organiser: trics
-  location: Antwerp, Belgium
+  title: "Towards a Genetics of Translation"
+  subtitle: "Interdisciplinary and International Perspectives"
+  organiser: "trics"
+  location: "Antwerp, Belgium"
   archive_url: "https://web.archive.org/web/20210213215501/https://www.uantwerpen.be/en/research-groups/translation-interpreting/news---events/past-events/towards-a-genetics-o/"
-  programme_url: /assets/events/2015/trics/programme.pdf
-  venue: uantwerp
+  programme_url: "/assets/events/2015/trics/programme.pdf"
+  venue: "uantwerp"
   startdate: 2015-09-29
   enddate: 2015-09-29
 
 2015_ests:
-  title: ESTS 2015
-  subtitle: Users of Scholarly Editions
-  venue: dmu
-  organiser: ests
+  title: "ESTS 2015"
+  subtitle: "Users of Scholarly Editions"
+  venue: "dmu"
+  organiser: "ests"
   archive_url: "https://web.archive.org/web/20150905221613/https://cts.dmu.ac.uk/ESTS/"
   startdate: 2015-11-19
   enddate: 2015-11-21
+
+2016_dixit:
+  title: "DiXiT Convention 2"
+  subtitle: "Academia, Cultural Heritage, Society"
+  organiser: "dixit"
+  archive_url: "https://web.archive.org/web/20260222182721/https://dixit.uni-koeln.de/programme/convention-2/"
+  venue: "uni_koeln"
+  startdate: 2016-03-14
+  enddate: 2016-03-18

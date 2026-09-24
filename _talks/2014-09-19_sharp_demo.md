@@ -5,7 +5,7 @@ author: Wout Dillen
 title: Lexicon of Scholarly Editing
 event: 2014_sharp
 date: 2014-09-19
-flyer: /assets/events/2014/sharp/flyer.pdf
+flyer: "/assets/events/2014/sharp/flyer.pdf"
 ---
 
 ### Abstract

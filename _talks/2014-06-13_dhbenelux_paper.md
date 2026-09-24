@@ -6,9 +6,8 @@ title: The Text of the Document
 subtitle: Image-Text Linking in the Beckett Digital Manuscript Project
 event: 2014_dhbenelux
 date: 2014-06-13
-slides: /assets/events/2014/dhbenelux/slides.pdf
+slides: "/assets/events/2014/dhbenelux/slides.pdf"
 ---
-
 
 ### Abstract
 

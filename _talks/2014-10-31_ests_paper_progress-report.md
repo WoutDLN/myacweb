@@ -6,7 +6,7 @@ title: Progress Report
 subtitle: A Lexicon of Scholarly Editing
 event: 2014_ests
 date: 2014-10-31
-slides: /assets/events/2014/ests/paper-progress-report.pdf
+slides: "/assets/events/2014/ests/paper-progress-report.pdf"
 ---
 
 ### Abstract

@@ -6,7 +6,7 @@ title: Clean versus Functional Code in Scholarly Digital Editing
 subtitle: The Case of the Beckett Digital Manuscript Project
 event: 2014_ests
 date: 2014-10-31
-slides: /assets/events/2014/ests/paper-clean-vs-functional.pdf
+slides: "/assets/events/2014/ests/paper-clean-vs-functional.pdf"
 ---
 
 ### Abstract

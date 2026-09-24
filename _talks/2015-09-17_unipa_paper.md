@@ -6,7 +6,7 @@ title: The Lexicon of Scholarly Editing
 subtitle: A Multilingual Resource for Textual Scholarship
 event: 2015_unipa
 date: 2015-09-17
-slides: /assets/events/2015/palermo/slides.pdf
+slides: "/assets/events/2015/palermo/slides.pdf"
 ---
 
 ## Abstract

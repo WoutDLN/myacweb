@@ -15,7 +15,7 @@ ens:
   plus_code: "R8RV+RQ Paris, France"
 
 kbnl:
-  name: National Library of the Netherlands
+  name: "National Library of the Netherlands"
   city: "The Hague"
   country: "The Netherlands"
   address: "Prins Willem-Alexanderhof 5, 2595 BE Den Haag, The Netherlands"
@@ -69,3 +69,11 @@ dmu:
   address: "Gateway House, Leicester LE1 9BH, United Kingdom"
   url: "https://www.dmu.ac.uk/"
   plus_code: "JVH6+W3 Leicester, United Kingdom"
+
+uni_koeln:
+  name: "University of Cologne"
+  city: "Cologne"
+  country: "Germany"  
+  address: "Albertus-Magnus-Platz, 50923 Köln, Germany"
+  url: "https://www.uni-koeln.de/"
+  plus_code: "WWHH+8P Cologne, Germany"

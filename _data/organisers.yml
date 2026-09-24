@@ -19,7 +19,7 @@ sharp:
   url: "https://www.sharpweb.org/"
 
 baahe:
-  name: "The Belgian Association for American and English Studies"
+  name: "Belgian Association for American and English Studies"
   shortname: "BAAHE"
   url: "https://www.baahe.be/"
 
@@ -33,3 +33,8 @@ trics:
   shortname: "TricS"
   url: "https://www.uantwerpen.be/en/research-groups/translation-interpreting/"
   no_article: true
+
+dixit:
+  name: "Digital Scholarly Editions Initial Training Network"
+  shortname: "DiXiT"
+  url: "https://dixit.uni-koeln.de/"
