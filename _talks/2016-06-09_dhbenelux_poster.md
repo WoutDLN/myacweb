@@ -1,18 +1,11 @@
 ---
-layout: page
-description: Poster
+layout: talk
+type: Poster
 author: Wout Dillen
 title: Digital Scholarly Editing and Memory Institutions
-year: 2016
-eventtitle: DH Benelux 2016
-location: Belval, Luxembourg
-venue: University of Luxembourg
+event: 2016_dhbenelux
 date: 2016-06-09
-eventdate: 2016-06-09/2016-06-10
-img: /assets/img/cities/belval.jpg
-eventurl: "https://web.archive.org/web/20210127190815/https://2016.dhbenelux.org/"
-pdf: /assets/pdf/posters/2016-06-09_digital-scholarly-editing-and-memory-institutions.pdf
-category: poster
+slides: "/assets/events/2016/dhbenelux/poster.pdf"
 ---
 
 ## Abstract

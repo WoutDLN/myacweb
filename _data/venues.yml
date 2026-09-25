@@ -85,3 +85,19 @@ hb:
   address: "Allégatan 1, 501 90 Borås, Sweden"
   url: "https://www.hb.se/en/"
   plus_code: "PWGQ+3M Borås"
+
+uni_lu:
+  name: "University of Luxembourg"
+  city: "Belval"
+  country: "Luxembourg"
+  address: "2 Av. de l'Universite, 4365 Belval Esch-sur-Alzette, Luxembourg"
+  url: "https://wwwen.uni.lu/"
+  plus_code: "GW3X+MP Esch-sur-Alzette, Luxembourg"  
+
+uj:
+  name: "Jagiellonian University"
+  city: "Kraków"
+  country: "Poland"
+  address: "Grodzka 52, 31-044 Kraków, Poland"
+  url: "Gołębia 24, 31-007 Kraków, Poland"
+  plus_code: "3W6M+C5 Kraków, Poland"

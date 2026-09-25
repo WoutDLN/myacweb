@@ -120,3 +120,20 @@
   startdate: 2016-04-18
   enddate: 2016-04-18
   venue: "hb"
+
+2016_dhbenelux:
+  title: "DH Benelux 2016" 
+  organiser: "dhbenelux"
+  startdate: 2016-06-09
+  enddate: 2016-06-10
+  venue: "uni_lu"
+  archive_url: "https://web.archive.org/web/20210127190815/https://2016.dhbenelux.org/"
+
+2016_dh:
+  title: "Digital Humanities 2016"
+  subtitle: "Digital Identities: the Past and the Future"
+  archive_url: "https://web.archive.org/web/20220511174208/https://dh2016.adho.org/index.html"
+  venue: "uj"
+  startdate: 2016-07-11
+  enddate: 2016-07-16
+  organiser: "adho"

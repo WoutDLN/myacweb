@@ -1,20 +1,12 @@
 ---
-layout: page
-description: Conference Paper
+layout: talk
+type: Conference Paper
 author: Wout Dillen
 title: Sequentiality in Genetic Digital Scholarly Editions
 subtitle: Models for Encoding the Dynamics of the Writing Process
-year: 2016
-eventtitle: Digital Humanities 2016
-eventtitleaddon: "Digital Identities: the Past and the Future"
-eventurl: "https://web.archive.org/web/20220511174208/https://dh2016.adho.org/index.html"
-location: Kraków, Poland
-venue: Jagiellonian University
-img: /assets/img/cities/krakow.jpg
+event: 2016_dh
 date: 2016-07-13
-eventdate: 2016-07-11/2016-07-16
-pdf: /assets/pdf/slides/2016-07-13_sequentiality-in-genetic-digital-scholarly-editions.pdf
-category: conference-paper
+slides: "/assets/events/2016/dh/slides.pdf"
 ---
 
 ## Abstract
