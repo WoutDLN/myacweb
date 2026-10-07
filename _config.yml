@@ -41,6 +41,10 @@ collections:
     output: true
     permalink: /talks/:name/
 
+  posts:
+    output: true
+    permalink: /blog/:name/
+
 defaults:
   -
     scope:
