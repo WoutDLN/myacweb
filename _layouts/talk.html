@@ -49,9 +49,40 @@ layout: default
     at <strong>{{ event.title }}</strong>
 
     {% if event.organiser %}
-      organised by {% unless organiser.no_article %}the {% endunless %}<strong>{{ organiser.name }}</strong> 
-        {% if organiser.shortname %}
-          ({{ organiser.shortname }})
+
+        {% if event.organiser contains "," %}
+
+            {% assign organisers = event.organiser | split: ", " %}
+
+            organised by 
+
+            {% for organiser_id in organisers -%}
+                {% assign organiser = site.data.organisers[organiser_id] %}
+
+                {%- if forloop.first -%}
+                    {% unless organiser.no_article %}the {% endunless %} <strong>{{ organiser.name }}</strong>
+                        {% if organiser.shortname %}
+                            ({{ organiser.shortname }})
+                        {%- endif -%}
+                {%- elsif forloop.last -%}
+                    , and {% unless organiser.no_article %}the {% endunless %} <strong>{{ organiser.name }}</strong>
+                        {% if organiser.shortname %}
+                            ({{ organiser.shortname }})
+                        {% endif %}
+                {%- else -%}
+                    , {% unless organiser.no_article %}the {% endunless %} <strong>{{ organiser.name }}</strong>
+                        {% if organiser.shortname %}
+                            ({{ organiser.shortname }})
+                        {%- endif -%}
+                {%- endif -%}
+
+            {%- endfor -%}       
+        {% else %}
+
+            organised by {% unless organiser.no_article %}the {% endunless %}<strong>{{ organiser.name }}</strong> 
+                {% if organiser.shortname %}
+                    ({{ organiser.shortname }})
+                {% endif %}
         {% endif %}
     {% endif %}
 
@@ -123,8 +154,28 @@ layout: default
     {% assign separator = " | " %}
     {% endif %}
 
-
-    {% if organiser.url %}
+    {% if event.organiser contains "," %}
+        {% assign organisers = event.organiser | split: ", " %}
+        {% for organiser_id in organisers -%}
+                {% assign organiser = site.data.organisers[organiser_id] %}
+            {% if organiser.url %}
+            {{ separator }}
+                <a href="{{ organiser.url | relative_url }}" target="_blank">
+                    {% if organiser.shortname %}
+                    {{ organiser.shortname }}
+                    {% else %}
+                    {{ organiser.name }} 
+                    {% endif %}
+                    {% if organiser.url contains "web.archive.org" %}
+                    (Archived)
+                    {% else %}
+                    (Website)
+                    {% endif %}
+                </a>
+            {% assign separator = " | " %}
+            {% endif %}
+        {% endfor %}
+    {% elsif organiser.url %}
     {{ separator }}
         <a href="{{ organiser.url | relative_url }}" target="_blank">
             {% if organiser.shortname %}
