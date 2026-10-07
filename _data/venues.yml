@@ -101,3 +101,11 @@ uj:
   address: "Grodzka 52, 31-044 Kraków, Poland"
   url: "Gołębia 24, 31-007 Kraków, Poland"
   plus_code: "3W6M+C5 Kraków, Poland"
+
+uni-graz:
+  name: "University of Graz"
+  city: "Graz"
+  country: "Austria"
+  address: "Universitätsplatz 3, 8010 Graz, Austria"
+  url: "https://www.uni-graz.at/en/"
+  plus_code: "3CHX+3R Graz, Austria"

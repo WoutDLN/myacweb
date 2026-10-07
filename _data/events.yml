@@ -137,3 +137,12 @@
   startdate: 2016-07-11
   enddate: 2016-07-16
   organiser: "adho"
+
+2016_graz-summerschool:
+  eventtitle: "Digitale Edition"
+  eventtitleaddon: "Grundlagen"
+  programme_url: "https://web.archive.org/web/20260221195314/https://www.i-d-e.de/aktivitaeten/schools/summer-school-2016/"
+  venue: "uni-graz"
+  startdate: 2016-09-05
+  enddate: 2016-09-09
+  organiser: "ide, zim"

@@ -43,3 +43,13 @@ sslis:
   name: "Swedish School of Library and Information Science"
   shortname: "SSLIS"
   url: "https://www.hb.se/en/the-swedish-school-of-library-and-information-science-sslis/"
+
+ide:
+  name: "Institut für Dokumentologie und Editorik"
+  shortname: "IDE"
+  url: "https://www.i-d-e.de/"
+
+zim:
+  name: "Zentrum für Informationsmodellierung"
+  shortname: "ZIM"
+  url: "https://www.zim.uni-graz.at/en/"
