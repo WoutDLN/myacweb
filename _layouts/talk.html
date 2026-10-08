@@ -157,7 +157,7 @@ layout: default
     {% if event.organiser contains "," %}
         {% assign organisers = event.organiser | split: ", " %}
         {% for organiser_id in organisers -%}
-                {% assign organiser = site.data.organisers[organiser_id] %}
+            {% assign organiser = site.data.organisers[organiser_id] %}
             {% if organiser.url %}
             {{ separator }}
                 <a href="{{ organiser.url | relative_url }}" target="_blank">
